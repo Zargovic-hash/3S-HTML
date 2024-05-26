@@ -1,0 +1,145 @@
+/* Styles pour toute la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    background-size: cover; /* Pour couvrir tout le corps */
+}
+
+/* Styles pour le header */
+header {
+    background-image: url('cover.png'); /* Chemin vers votre image */
+    background-size: cover; /* Pour couvrir tout le header */
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligner à droite */
+}
+
+.header-logo img {
+    width: 80px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+    border-radius: 50%; /* Rend le logo circulaire */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #cceeff;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styles pour le formulaire de contact */
+#contact {
+    padding: 40px 20px;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"], /* Ajout du style pour le champ de téléphone */
+form textarea {
+    width: 100%;
+    padding: 8px; /* Réduction de la taille de la police */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Réduction de la taille de la police */
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
